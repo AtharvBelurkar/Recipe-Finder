@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width:device-width, initial-scale:1.0">
+	<title>Recipes App</title>
+	<link rel="stylesheet" type="text/css" href="recipe.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h3>recipe Finder</h3>
+			<input type="text" id="search-term" placeholder="Search" name="search">
+			<button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+		</header>
+		<div class="fav-container">
+			<h3>Favourite Meals</h3>
+			<ul class="fav-meals" id="fav-meals">
+				<!-- <li>
+					<img src="food1.jpg"><span>Pan Cake</span>
+				</li>
+				<li>
+					<img src="food2.jpg"><span>Veggies</span>
+				</li> -->
+				<!-- <li>
+					<img src="food3.jpg"><span>pizza</span>
+				</li> -->
+				<!-- <li>
+					<img src="https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg"><span>Lasagna</span>
+				</li>
+				<li>
+					<img src="food5.jpg"><span>Fusilli</span>
+				</li> -->
+				<!-- <li>
+					<img src="food6.jpg"><span>pizza</span>
+				</li>
+				<li>
+					<img src="food4.jpg"><span>Exotic Veg</span>
+				</li> -->
+			</ul>
+		</div>
+		<div class="meals" id="meals">
+			<!-- <div class="meal">
+				<div class="meal-header">
+					<span class="random">Recipe of the Day</span>
+					<img src="https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg">
+				</div>
+				<div class="meal-body">
+					<h4>Lasagna</h4>
+					<button onclick="liked()" id="favbtn" class="fav-btn">
+						<i id="heart" class="far fa-heart"></i>
+					</button>
+				</div>
+			</div> -->
+		</div>
+		<div class="popup-container hidden" id="meal-popup">
+			<div class="popup" >
+				<button id = "close-popup" class = "close-popup" ><i class="fa-solid fa-xmark"></i></button>
+				<div class="meal-info" id="meal-info">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="recipe.js"></script>
+</html>
