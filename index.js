@@ -50,7 +50,7 @@ function addMeal(mealData, random = false) {
 			;
 	const btn = meal.querySelector(".meal-body .fav-btn");
 	const i = meal.querySelector(".meal-body .far")
-	const mealHeader = meal.querySelector(".mealHeader");
+	const mealHeader = meal.querySelector(".meal-header");
 
 	btn.addEventListener("click", () => {
 		if(btn.classList.contains("active")){
