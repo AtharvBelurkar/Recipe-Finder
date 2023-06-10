@@ -68,9 +68,9 @@ function addMeal(mealData, random = false) {
 		fetchFavMeals();
 	});
     
-	// meal.addEventListener('click', () =>{
-	// showMealInfo(mealData);
- // 	});
+	mealHeader.addEventListener('click', () =>{
+		showMealInfo(mealData);
+	});
 
 	meals.appendChild(meal);
 }
