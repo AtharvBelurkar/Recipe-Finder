@@ -156,6 +156,11 @@ searchBtn.addEventListener('click', async () =>{
 		addMeal(meal);
 		});
 	}
+	else{
+		alert("Recipe not found");
+		getRandomMeal();
+		searchTerm.value = '';
+	}
 });
 
 closePopupBtn.addEventListener('click', () =>{
