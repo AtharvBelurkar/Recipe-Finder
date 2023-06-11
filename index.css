@@ -131,6 +131,7 @@ header button {
 	border-radius: 3px;
 	overflow: hidden;
 	cursor: pointer;
+	border: 3px solid #f5a442;
 	box-shadow: 0 0 10px 2px #3333331a;
 	min-width: 300px;
 	max-width: 300px;
