@@ -10,7 +10,8 @@ body {
 
 .container {
 	background-color: white;
-	width: 70%;
+	width: 90%;
+	margin: 50px;
 }
 
 img {
@@ -28,6 +29,7 @@ header {
 
 header h3 {
 	margin-right: 25px;
+	font-size: 3rem;
 }
 
 header input {
@@ -36,14 +38,15 @@ header input {
 	background-color: #eee;
 	padding: 0.5rem 1rem;
 	margin-left: 5px;
+	font-size: 1.2rem;
 }
 
 header button {
 	background-color: transparent;
 	color: #aaa;
 	border: none;
-	margin-left: 5px;
-	font-size: 1.5rem;
+	margin-left: 25px;
+	font-size: 2rem;
 }
 
 .fav-container {
@@ -83,7 +86,7 @@ header button {
 	position: absolute;
 	z-index: 9;
 	background-color: white; /*#fcfcf0*/
-	right: 2rem;
+	right: 4.5rem;
 	padding: 1px;
 	border-radius: 0.5rem;
 }
@@ -118,6 +121,8 @@ header button {
 .meals {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	justfy-content: center;
 }
 
 .meal {
@@ -127,6 +132,8 @@ header button {
 	overflow: hidden;
 	cursor: pointer;
 	box-shadow: 0 0 10px 2px #3333331a;
+	min-width: 300px;
+	max-width: 300px;
 }
 
 .meal-header .random{
