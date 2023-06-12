@@ -121,8 +121,8 @@ header button {
 .meals {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
-	justfy-content: center;
 }
 
 .meal {
