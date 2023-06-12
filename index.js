@@ -138,7 +138,8 @@ function addFavMeal(mealData) {
 				removeMealLocalStorage(mealData.idMeal);
 				fetchFavMeals();
 			});
-	favMeal.addEventListener('click', () => {
+	const favMealIcon = favMeal.querySelector("img");
+	favMealIcon.addEventListener('click', () => {
 		showMealInfo(mealData);
 	});
 
