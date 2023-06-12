@@ -54,13 +54,11 @@ function addMeal(mealData, random = false) {
 		if(btn.classList.contains("active")){
 			btn.classList.remove("active");
 			i.classList.remove("fas");
-			a = 0;
 			removeMealLocalStorage(mealData.idMeal);
 		}
 		else {
 			btn.classList.add("active");
 			i.classList.add("fas");
-			a = 0;
 			addMealLocalStorage(mealData.idMeal);
 		}
 		fetchFavMeals();
