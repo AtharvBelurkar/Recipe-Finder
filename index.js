@@ -27,8 +27,6 @@ async function getMealBySearch(term) {
 	const resp = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=" + term);
 	const respData = await resp.json();
 	const meals = respData.meals;
-	console.log(meals);
-	console.log(respData);
 	return meals;
 
 }
