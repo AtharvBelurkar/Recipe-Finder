@@ -79,17 +79,17 @@ if(mealHeader != null){
 	});
 }
 
-function addMealLocalStorage(mealId) { //Revise Again
+function addMealLocalStorage(mealId) { 
 	const mealIds = getMealsLocalStorage();
 	localStorage.setItem('mealIds',JSON.stringify([...mealIds,mealId])); 
 }
 
-function removeMealLocalStorage(mealId) { //Revise Again
+function removeMealLocalStorage(mealId) { 
 	const mealIds = getMealsLocalStorage();
 	localStorage.setItem("mealIds", JSON.stringify(mealIds.filter((id) => id !== mealId)));
 }
 
-function getMealsLocalStorage() { //Revise Again
+function getMealsLocalStorage() { 
 	const mealIds = JSON.parse(localStorage.getItem('mealIds'));
 
 	return mealIds === null ? [] : mealIds;
